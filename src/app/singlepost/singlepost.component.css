@@ -1,0 +1,41 @@
+main{
+    background-color: #121212;
+    width: 100%;
+}
+h3{
+    color: white;
+}
+.post-container{
+    margin: auto;
+    border: 1px solid black;
+    
+    padding-top: 5px;
+    margin-bottom: 3px;
+    width: 50%;
+    text-align: center;
+    background-color: #181818;
+}
+
+.link{
+    border-radius: 25px;
+    padding: 2px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color:cornflowerblue;
+    color:black;
+    font-size: small;
+}
+.link:visited{
+    color:black;
+}
+.link:hover{
+    border: 1px solid white;
+    color: white;
+}
+
+.linkbox{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
